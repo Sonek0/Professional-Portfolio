@@ -6,7 +6,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-image: url(Image/1B1A6244.jpg);
+    background-image: url(Image/catside.jpg);
     background-size: 100% 100%;
     background-repeat: none;
 }
@@ -62,7 +62,7 @@ nav {
 .dot{
   width: 200px;
   height: 200px;
-  background-image: url(Image/About\ Me\ photo.JPG);
+  background-image: url(Image/about.JPG);
   border-radius: 50%;
   display: inline-block;
   background-size: 100% 100%;
@@ -115,7 +115,7 @@ nav {
     height: 300px;
     margin: 100px;
     border: 5px solid black;
-    background-image: url(Image/1B1A6009.jpg);
+    background-image: url(Image/bar.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: white;
