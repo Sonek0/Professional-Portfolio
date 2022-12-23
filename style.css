@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("image/1B1A6244.jpg");
+    background-size: 100% 100%;
+    background-repeat: none;
+}
+
+.main-header {
+   background-color: rgb(193, 176, 209);
+    
+    height: 20em ;
+    padding: 30px;
+    object-position: bottom;
+}
+
+.p-name{
+    color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav main{
+    color: antiquewhite;
+    display: inline-block;
+    padding: .5em;
+    position: relative;
+    text-align: center;
+}
+
+.nav li a {
+    color: antiquewhite;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav li a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    transition: .4s;
+}
+
+.dot{
+  width: 200px;
+  height: 200px;
+  background-image: url(image/About\ Me\ photo.JPG);
+  border-radius: 50%;
+  display: inline-block;
+  background-size: 100% 100%;
+  background-repeat: none;
+  border: 2px solid black;
+}
+
+
+.flexbox-container {
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox-item-box1{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 5px solid black;
+    background-image: url(Image/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    opacity: .5;
+}
+.flexbox-item-box1:hover{
+    opacity: 1;
+}
+
+.flexbox-item-box2{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 5px solid black;
+    background-image: url(Image/random\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    opacity: .5;
+}
+
+.flexbox-item-box2:hover{
+    opacity: 1;
+}
+
+.flexbox-item-box3{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 5px solid black;
+    background-image: url(Image/1B1A6009.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    opacity: .5;
+}
+
+.flexbox-item-box3:hover{
+    opacity: 1;
+}
+
+.flexbox-item-box4{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 5px solid black;
+    background-image: url(Image/strip-led-uvc-ledco-sanificazione-superfici-cucina-disinfezione.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    opacity: .5;
+}
+.flexbox-item-box4:hover{
+    opacity: 1;
+}
+
+.flexbox-item-box5{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    border: 5px solid black;
+    background-image: url(Image/img\ supp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    opacity: .5;
+}
+
+.flexbox-item-box5:hover{
+    opacity: 1;
+}
+
+p{
+    font-size: larger;
+    color: antiquewhite;
+}
+
+h2{
+    border-right: 60 solid green;
+    color: coral
+}
+
+.contact{
+    color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.contact li a {
+    color: coral;
+    font-weight: bold;
+    text-transform: capitalize;
+}
